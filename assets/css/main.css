@@ -115,8 +115,8 @@ ul li, ol li {
   left: 15px;
   bottom: 8px;
   width: 48px;
-  height: 4px;
-  background-color: #e9efc7;
+  height: 3px;
+  background-color: #0099cc/*#e9efc7*/;
 }
 
 .section-title:after {
@@ -126,7 +126,7 @@ ul li, ol li {
   bottom: 2px;
   width: 48px;
   height: 3px;
-  background-color: #e9efc7;
+  background-color: #0099cc /*#e9efc7*/;
 }
 
 .section-title:before, .section-title:after {
@@ -260,7 +260,7 @@ button:focus {
 }
 
 .icon-close, .icon-check {
-  color: #0099cc;
+  color: #e9efc7;
 }
 
 .bg-drack {
@@ -602,7 +602,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .navbar-brand img {
-  width: 70%;
+  width: 70%!important;
 }
 
 .top-nav-collapse {
@@ -825,9 +825,62 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 @media screen and (max-width: 768px) {
+
+  .columna-actividades {
+    text-align: left;
+  }
+  .columna-actividades ul{
+    margin: 0;
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+  }
+  #actividades {
+    min-height: 100vh!important;
+    padding-bottom: 200px;
+  }
+  .pricing-list {
+    padding: 0!important;
+  }
+  #actividades .price-block-wrapper .pricing-list {
+    padding: 10px  0px 10px 0px!important;
+    text-align: left;
+  }
+  .price-block-wrapper h5 {
+    text-align: left;
+  }
+  .cartel-servicios {
+    padding: 0!important;
+    text-align: left;
+  }
+  .carousel-caption {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .carousel-caption .btn {
+      width: fit-content;
+      align-self: center;
+  }
+  .carousel-caption h1 {
+    font-size: 4rem!important;
+  }
+    .carousel-caption h3 {
+    font-size: 1.6rem!important;
+  }
+  .carousel-caption p {
+    display: none;
+  }
+  #main-slide {
+    height: 100vh;
+  }
+  #main-slide img {
+    height: 100vh;
+    width: auto;
+    object-fit: cover;
+  }
   .navbar-header {
     width: 100%;
-    background-color: #fff!important;
   }
   .navbar-brand {
     position: absolute;
@@ -835,7 +888,7 @@ a.back-to-top:hover, a.back-to-top:focus {
     top: 0;
   }
   .navbar-brand img {
-    width: 120px!important;
+    width: 75%;
   }
   #mobile-menu {
     display: none;
@@ -848,12 +901,12 @@ a.back-to-top:hover, a.back-to-top:focus {
     color: #fff;
   }
   .slicknav_nav a:hover, .slicknav_nav .active {
-    color: #0099cc;
+    color: #161616;
     background: #f5f5f5;
   }
   .slicknav_nav .dropdown li a.active {
     background: #f5f5f5;
-    color: #0099cc;
+    color: #e9efc7;
   }
 }
 
@@ -883,7 +936,7 @@ h1 {
 }
 
 .about-item .about-text h3 a:hover {
-  color: #0099cc;
+  color: #e9efc7;
 }
 
 .about-item .about-text .btn {
@@ -1123,7 +1176,7 @@ h1 {
 }
 
 .schedule .card-body .location span {
-  color: #0099cc;
+  color: #e9efc7;
   margin-right: 5px;
 }
 
@@ -1146,7 +1199,7 @@ h1 {
 }
 
 .accordion .card-header i {
-  color: #0099cc;
+  color: #e9efc7;
   width: 40px;
   height: 40px;
   display: inline-block;
@@ -1235,7 +1288,7 @@ h1 {
 
 .services-item:hover .icon i {
   background: transparent;
-  color: #0099cc;
+  color:#e9efc7;
 }
 
 /* Gallery Section */
@@ -1381,7 +1434,7 @@ h1 {
 }
 
 .team-item .overlay-social-icon .social-icons li a:hover .fa-twitter {
-  background: #fb3958;
+  background: #00aced;
 }
 
 .team-item .overlay-social-icon .social-icons li a:hover .fa-instagram {
@@ -1530,6 +1583,29 @@ h1 {
 .contact {
   background: #111111;
 }
+.title-white {
+  color: #161616;
+  padding-top: 80px;
+}
+#contact {
+  background-color: #ffffff;
+  min-height: 100vh;
+  color: #161616;
+}
+#contact p h1{
+padding: 0;  
+}
+#contact li {
+  font-size: 14px;
+  font-weight: 300!important;
+  margin-bottom: 12px;
+}
+.formulario {
+  height: 24px;
+}
+.area-texto{
+  height: 180px;
+}
 
 #conatiner-map {
   width: 100%;
@@ -1540,7 +1616,6 @@ h1 {
   font-size: 28px;
   margin-bottom: 20px;
 }
-
 .contact-item {
   position: relative;
   text-align: center;
@@ -1725,7 +1800,10 @@ h1 {
 /* Footer Area Start */
 .footer-area {
   background: #ffffff;
-  box-shadow: 6px 3px 6px 3px rgba(0, 0, 0, 0.06);
+}
+#footer {
+  background-color: #0099cc;
+  height: 20px;
 }
 
 .footer-area img {
@@ -1901,7 +1979,7 @@ h1 {
 
 .widget .widget-title {
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   color: #161616;
 }
@@ -2002,7 +2080,7 @@ h1 {
 #actividades {
   /*background: url(../img/background/bg-pricing.jpg);*/
   background-attachment: fixed;
-  height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
   position: relative;
 }
@@ -2241,7 +2319,7 @@ h1 {
 
 
 .hero-text {
-  font-size: 6em!important;
+  font-size: 6rem!important;
   font-weight: 700;
   font-family: 'Josefin Sans', sans-serif!important;
 
