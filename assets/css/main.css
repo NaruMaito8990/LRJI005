@@ -20,9 +20,13 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 700;
   font-family: 'Josefin Sans', sans-serif!important;
+}
+
+.proximamente {
+  font-size: 25px;
 }
 
 a {
@@ -640,7 +644,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  color: #fff;
+  color: #161616; /*red*/
   padding: 0 15px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -853,8 +857,13 @@ a.back-to-top:hover, a.back-to-top:focus {
     text-align: left;
   }
   .carousel-caption {
-    width: auto;
+    width: 100%!important;
+    margin: 0!important;
+    padding: 0!important;
     display: flex;
+    bottom: 0!important;
+    right: 0;
+    left: 0;
     flex-direction: column;
     justify-content: center;
   }
@@ -863,13 +872,16 @@ a.back-to-top:hover, a.back-to-top:focus {
       align-self: center;
   }
   .carousel-caption h1 {
-    font-size: 4rem!important;
+    font-size: 109px!important;
   }
     .carousel-caption h3 {
-    font-size: 1.6rem!important;
+    font-size: 25px!important;
   }
   .carousel-caption p {
-    display: none;
+    /*display: none;*/
+    font-size: 16px!important;
+    width: 100%!important;
+    margin-bottom: 20px
   }
   #main-slide {
     height: 100vh;
@@ -2239,7 +2251,7 @@ padding: 0;
 }
 
 #main-slide .carousel-item .carousel-caption p {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #main-slide .carousel-item.active .carousel-caption {
@@ -2251,7 +2263,7 @@ padding: 0;
 #main-slide .carousel-caption {
   color: #fff;
   position: absolute;
-  top: 35%;
+  top: 30%;
 }
 
 #main-slide .carousel-caption .btn {
@@ -2319,8 +2331,8 @@ padding: 0;
 
 
 .hero-text {
-  font-size: 6rem!important;
-  font-weight: 700;
+  font-size: 109px!important;
+  font-weight: 900;
   font-family: 'Josefin Sans', sans-serif!important;
 
 }

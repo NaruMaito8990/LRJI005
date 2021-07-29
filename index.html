@@ -102,14 +102,16 @@
 
       <!-- Main min-height: 100vh!important; Section Start -->
       <div id="main-slide" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
+      <!--  <ol class="carousel-indicators">
           <li data-target="#main-slide" data-slide-to="0" class="active"></li>
-          <li data-target="#main-slide" data-slide-to="2" ></li>
-          <!-- <li data-target="#main-slide" data-slide-to="1"></li>-->
+         <li data-target="#main-slide" data-slide-to="2" ></li> 
+          <li data-target="#main-slide" data-slide-to="1"></li>
           
         </ol>
+
+        -->
         <div class="carousel-inner" >
-          <div class="carousel-item" >
+         <!-- <div class="carousel-item" >
             <img class="d-block w-100 test-carousel" src="assets/img/slider/slide3.jpg" alt="First slide" >
             <div class="carousel-caption d-md-block">
               <h3 class="fadeInUp wow" data-wow-delay=".6s">PRÓXIMAMENTE</h3>
@@ -117,7 +119,7 @@
               <p class="fadeInUp wow" data-wow-delay=".6s">EXCELENCIA EN EL CUIDADO DEL ADULTO MAYOR</p>
               <a href="#about" class="fadeInRight wow btn btn-border btn-lg" data-wow-delay=".6s">MÁS INFORMACIÓN</a>
             </div>
-          </div>
+          </div>+-->
          <!-- <div class="carousel-item">
             <img class="d-block w-100" src="assets/img/slider/slide2.jpg" alt="Second slide">
             <div class="carousel-caption d-md-block">
@@ -126,16 +128,18 @@
               <a href="#" class="fadeInUp wow btn btn-border btn-lg" data-wow-delay=".8s">Learn More</a>
             </div>
           </div> -->
+        <!---->
           <div class="carousel-item active">
-            <img class="d-block w-100 test-carousel" src="assets/img/slider/slide1.jpg" alt="Second slide">
+            <img class="d-block w-100 test-carousel" src="assets/img/slider/hero.jpg" alt="Second slide">
             <div class="carousel-caption d-md-block">
-              <h3 class="fadeInUp wow" data-wow-delay=".6s">PRÓXIMAMENTE</h3>
+              <h3 class="fadeInUp wow proximamente" data-wow-delay=".6s">PRÓXIMAMENTE</h3>
               <h1 class="wow fadeInDown heading hero-text" data-wow-delay=".4s">NOVA VITA</h1>
               <p class="fadeInUp wow" data-wow-delay=".6s">EXCELENCIA EN EL CUIDADO DEL ADULTO MAYOR</p>
               <a href="#about" class="fadeInRight wow btn btn-border btn-lg" data-wow-delay=".6s">MÁS INFORMACIÓN</a>
             </div>
           </div>
         </div>
+        <!--
         <a class="carousel-control-prev" href="#main-slide" role="button" data-slide="prev">
           <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-left"></i></span>
           <span class="sr-only">Previous</span>
@@ -144,6 +148,7 @@
           <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-right"></i></span>
           <span class="sr-only">Next</span>
         </a>
+        -->
       </div>
       <!-- Main Carousel Section End -->
 
@@ -161,7 +166,7 @@
       </div>
       <div class="col-md-6 col-lg-6 col-xs-12 wow fadeInRight" data-wow-delay="0.3s">
         <div class="video">
-          <img class="img-fluid" src="assets/img/about/about.jpg" alt="">
+          <img class="img-fluid" src="assets/img/about/about.jpeg" alt="">
         </div>
       </div>
       <div class="col-md-6 col-lg-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.3s">
@@ -178,7 +183,7 @@
         años que nos avala el formar parte de un grupo empresario orientado a la atención de la salud 
         integral.
       </p>
-      <a href="#" class="fadeInUp wow btn btn-common btn-lg" data-wow-delay=".8s">Contacto</a>
+      <a href="#contact" class="fadeInUp wow btn btn-common btn-lg" data-wow-delay=".8s">Contacto</a>
       </div>
     </div>
   </div>
@@ -305,7 +310,7 @@
       </div>
       <div class="col-md-6 col-lg-6 col-xs-12 wow fadeInRight" data-wow-delay="0.3s">
         <div class="video">
-          <img class="img-fluid" src="assets/img/about/about2.jpg" alt="">
+          <img class="img-fluid" src="assets/img/about/about2.jpeg" alt="">
         </div>
       </div>
 
@@ -378,26 +383,25 @@
             <div class="col-md">
               <div class="form-group">
                 <label for="name">Nombre</label>
-                <input type="text" class="form-control p-3 rounded-0 formulario" id="name">
+                <input type="text" class="form-control p-3 rounded-0 formulario" id="name" name="name">
               </div>
             </div>
             <div class="col-md">
               <div class="form-group">
                 <label for="email">Email</label>
-                <input type="text" class="form-control p-3 rounded-0 formulario" id="email">
+                <input type="email" class="form-control p-3 rounded-0 formulario" id="email" name="email">
               </div>
             </div>
             <div class="col-md">
               <div class="form-group">
                 <label for="tel">Teléfono</label>
-                <input type="text" class="form-control p-3 rounded-0 formulario" id="tel">
+                <input type="tel" class="form-control p-3 rounded-0 formulario" id="tel" name="tel">
               </div>
             </div>
           </div>
-          
           <div class="form-group">
-            <label for="message">Message</label>
-            <textarea cols="30" rows="10" class="form-control p-3 rounded-0 area-texto" id="message"></textarea>
+            <label for="message">Mensaje</label>
+            <textarea name="message" cols="30" rows="10" class="form-control p-3 rounded-0 area-texto" id="message"></textarea>
           </div>
           <div class="form-group">
             <input type="submit" class="fadeInUp wow btn btn-common btn-lg" value="ENVIAR">
