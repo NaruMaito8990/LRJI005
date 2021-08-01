@@ -34,7 +34,7 @@
     <header id="header-wrap">
       <!-- Navbar Start -->
       <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
-        <div class="container">
+        <div class="container" id="barra">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +43,7 @@
               <span class="icon-menu"></span>
               <span class="icon-menu"></span>
             </button>
-            <a href="index.html" class="navbar-brand"><img src="assets/img/logo2.png" alt=""></a>
+            <a href="index.html" class="navbar-brand" id="logo-main"><img src="assets/img/logon.png" alt=""></a>
           </div>
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
@@ -130,7 +130,7 @@
           </div> -->
         <!---->
           <div class="carousel-item active">
-            <img class="d-block w-100 test-carousel" src="assets/img/slider/hero.jpg" alt="Second slide">
+            <img class="d-block w-100 test-carousel" src="assets/img/slider/hero.jpeg" alt="Second slide">
             <div class="carousel-caption d-md-block">
               <h3 class="fadeInUp wow proximamente" data-wow-delay=".6s">PRÓXIMAMENTE</h3>
               <h1 class="wow fadeInDown heading hero-text" data-wow-delay=".4s">NOVA VITA</h1>
@@ -319,47 +319,141 @@
 </section>
 <!-- Event Slides Section End -->
 
-    <!-- Ticket Pricing Area Start -->
-    <section id="actividades" class="section-padding">
-      <div class="container" id="contenido-pricing">
-        <div class="row">
-          <div class="col-12">
+  
+ <!--====== FEATRES TWO PART START ======-->
+
+ <section id="actividades" class="section-padding">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-lg-6 col-md-10">
             <div class="section-title-header text-center">
               <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Actividades</h1>
               <p class="wow fadeInDown" data-wow-delay="0.2s"></p>
-            </div>
+            </div>       
           </div>
-        </div>
-        <div class="row columnas" >
-          <div class="col-lg-12 col-sm-12 col-xa-12 mb-12 cartel-servicios">
-            <div class="price-block-wrapper wow fadeInLeft" data-wow-delay="0.2s" id="test-servicios">
-              <div class="colmun-title">
-                <h5>Nuestros residentes cuentan con un completo esquema de actividades disponibles a su servicio, incluidas:</h5>
-              </div>
-              <div class="pricing-list row">
-                <div class="col-lg-6 col-sm-3 col-xa-12 mb-12 columna-actividades">
-                <ul>
-                  <li class="letrasgrandes"><i class="lni-check-mark-circle"></i><span class="text">Terapia ocupacional</span></li>
-                  <li class="letrasgrandes"><i class="lni-check-mark-circle"></i><span class="text">Musicoterapia</span></li>
-                  <li class="letrasgrandes"><i class="lni-check-mark-circle"></i><span class="text">Gimnasia recreativa</span></li>
-                  <li class="letrasgrandes"><i class="lni-check-mark-circle"></i><span class="text">Estimulación cognitiva</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6 col-sm-3 col-xa-12 mb-12 columna-actividades">
-                <ul>
-                  <li class="letrasgrandes"><i class="lni-check-mark-circle"></i><span class="text">Actividades de recreación grupales e individuales</span></li>
-                  <li class="letrasgrandes"><i class="lni-check-mark-circle"></i><span class="text">Servicio de peluquería, manicuría y pedicuría</span></li>
-                  <li class="letrasgrandes"><i class="lni-check-mark-circle"></i><span class="text">Acompañamiento terapéutico</span></li>
-                </ul>
-              </div>
-              </div>
-              <!--<a href="#" class="btn btn-common">Buy Ticket</a> -->
-            </div>
+      </div> <!-- row -->
+      <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-7 col-sm-9">
+              <div class="single-features mt-40">
+                  <div class="features-title-icon d-flex justify-content-between">
+                      <h4 class="features-title">Terapia<br>Ocupacional</h4>
+                      <div class="icon-act">
+                        <img src="./assets/img/icons/grow.svg" /></i>
+                      </div>
+                  </div>
+                  <div class="features-content">
+                      <p class="text">Con el objetivo de desarrollar su desempeño ocupacional y calidad de vida, para mejorar así, su salud integral.
+                        </p>
+                  </div>
+              </div> <!-- single features -->
           </div>
+          <div class="col-lg-4 col-md-7 col-sm-9">
+              <div class="single-features mt-40">
+                  <div class="features-title-icon d-flex justify-content-between">
+                      <h4 class="features-title">Taller de<br>Musicoterapia</h4>
+                      <div class="icon-act">
+                        <img src="./assets/img/icons/music.svg" /></i>
+                      </div>
+                  </div>
+                  <div class="features-content">
+                      <p class="text">
+                        Promueve la comunicación, el movimiento
+                        y la expresión, satisfaciendo necesidades físicas, emocionales, sociales y cognitivas.
+
+                      </p>
+                  </div>
+              </div> <!-- single features -->
+          </div>
+          <div class="col-lg-4 col-md-7 col-sm-9">
+              <div class="single-features mt-40">
+                  <div class="features-title-icon d-flex justify-content-between">
+                      <h4 class="features-title">Gimnasia<br>Recreativa</h4>
+                      <div class="icon-act">
+                        <img src="./assets/img/icons/basketball.svg" /></i>
+                      </div>
+                  </div>
+                  <div class="features-content">
+                      <p class="text">
+                        Actividades físicas recreativas con ejercicios especialmente adaptados a 
+                        las características de la tercera edad.
+                      </p>
+                  </div>
+              </div> <!-- single features -->
+          </div>
+      </div> <!-- row -->
+
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-7 col-sm-9">
+            <div class="single-features mt-40">
+                <div class="features-title-icon d-flex justify-content-between">
+                    <h4 class="features-title">Estimulación<br>Cognitiva</h4>
+                    <div class="icon-act">
+                      <img src="./assets/img/icons/invention.svg" /></i>
+                    </div>
+                </div>
+                <div class="features-content">
+                    <p class="text">
+                      Mentiene y mejora el funcionamiento cognitivo por medio de
+                      ejercicios de memoria, percepción, atención y lenguaje.
+                    </p>
+                </div>
+            </div> <!-- single features -->
         </div>
+        <div class="col-lg-4 col-md-7 col-sm-9">
+            <div class="single-features mt-40">
+                <div class="features-title-icon d-flex justify-content-between">
+                    <h4 class="features-title">Actividades recreativas grupales e individuales</h4>
+                    <div class="icon-act">
+                      <img src="./assets/img/icons/heart.svg" /></i>
+                    </div>
+                </div>
+                <div class="features-content">
+                    <p class="text">
+                      Programa de actividades lúdicas y recreativas diseñado especialmente para las personas de
+                      la tercera edad.
+                    </p>
+                </div>
+            </div> <!-- single features -->
+        </div>
+        <div class="col-lg-4 col-md-7 col-sm-9">
+            <div class="single-features mt-40">
+                <div class="features-title-icon d-flex justify-content-between">
+                    <h4 class="features-title">Servicio de peluquería, manicuría y pedicuría</h4>
+                    <div class="icon-act">
+                      <img src="./assets/img/icons/cut.svg" /></i>
+                    </div>
+                </div>
+                <div class="features-content">
+                    <p class="text">
+                      Servicio personalizados de estética integral relacionados con la belleza, salud y estética de nuestros residentes.
+                    </p>
+                </div>
+            </div> <!-- single features -->
+        </div>
+    </div> <!-- row -->
+    <div class="row justify-content-center">
+      <div class="col-lg-4 col-md-7 col-sm-9">
+          <div class="single-features mt-40">
+              <div class="features-title-icon d-flex justify-content-between">
+                  <h4 class="features-title">Acompañamiento terapéutico</h4>
+                  <div class="icon-act">
+                    <img src="./assets/img/icons/sun.svg" /></i>
+                  </div>
+              </div>
+              <div class="features-content">
+                  <p class="text">
+                    Modalidad de servicio dedicado especialmente a asistir, contener y acompañar a nuestros residentes.
+                  </p>
+              </div>
+          </div> <!-- single features -->
       </div>
-    </section>
-  
+  </div> <!-- row -->
+  </div> <!-- container -->
+</section>
+
+<!--====== FEATRES TWO PART ENDS ======-->
+
+
 <!-- modify this form HTML and place wherever you want your form -->
 
 <section class="pb_section" data-section="contact" id="contact">
