@@ -32,72 +32,38 @@
 
     <!-- Header Area wrapper Starts -->
     <header id="header-wrap">
-      <!-- Navbar Start -->
-      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
-        <div class="container" id="barra">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-              <span class="icon-menu"></span>
-              <span class="icon-menu"></span>
-              <span class="icon-menu"></span>
-            </button>
-            <a href="index.html" class="navbar-brand" id="logo-main"><img src="assets/img/logon.png" alt=""></a>
-          </div>
-          <div class="collapse navbar-collapse" id="main-navbar">
-            <ul class="navbar-nav mr-auto w-100 justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link" href="#about">
-                  Quiénes somos
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">
-                  Atención Profesional
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#servicios-nova">
-                  Servicios
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#actividades">
-                  Actividades
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">
-                  Contacto
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
 
-        <!-- Mobile Menu Start -->
-        <ul class="mobile-menu">
-          <li>
-            <a class="page-scrool" href="#about">Quiénes somos</a>
+    <!-- Navigation -->
+    <nav class="navbar fixed-top">
+      <a href="#" class="nav-logo"><img id="main-logo" src="./assets/img/logob.png" /></a>
+      <ul class="nav-menu">
+          <li class="nav-item">
+              <a href="#about" class="nav-link">Quiénes Somos</a>
           </li>
-          <li>
-             <a class="page-scroll" href="#services">Atención profesional</a>
+          <li class="nav-item">
+              <a href="#services" class="nav-link">Atencíón Profesional</a>
           </li>
-          <li>
-            <a class="page-scroll" href="#servicios-nova">Servicios</a>
+          <li></li>
+          <li class="nav-item">
+              <a href="#servicios-nova" class="nav-link">Servicios</a>
           </li>
-          <li>
-            <a class="page-scroll" href="#actividades">Actividades</a>
+          <li class="nav-item">
+              <a href="#actividades" class="nav-link">Actividades</a>
           </li>
-          <li>
-            <a class="page-scroll" href="#contact">Contacto</a>
-          </li>
-        </ul>
-        <!-- Mobile Menu End -->
+          <ul id="redes">
+            <li><a href="#ig"><i class="lni lni-facebook-filled"></i></a></li>
+            <li><a href="#ig"><i class="lni lni-instagram-filled"></i></a></li>
+          </ul>
+      </ul>
+      <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+      </div>
+  </nav>
+  <!-- end of navigation -->
 
-      </nav>
-      <!-- Navbar End -->
+
 
 
       <!-- Main min-height: 100vh!important; Section Start -->
@@ -171,7 +137,6 @@
       </div>
       <div class="col-md-6 col-lg-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.3s">
         <p class="intro-desc parrafo-uno">
-          <br>
           <span class="intro-title">Nuestro objetivo</span> es el cuidado de las necesidades de los residentes y familiares, 
           trabajando desde distintas áreas tanto físicas como emocionales a través de profesionales 
           especializados con una mirada integradora, en un ambiente familiar y con todas las comodidades 
@@ -205,12 +170,12 @@
         <div class="row services-wrapper">
           <!-- Services item -->
           <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
-            <div class="services-item wow fadeInDown" data-wow-delay="0.2s">
+            <div class="services-item wow fadeInDown hover2" data-wow-delay="0.2s">
               <div class="icon">
                 <i class="lni-sthethoscope"><img src="./assets/img/icons/sthethoscope.svg" /></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Medicina Clínica</a></h3>
+                <h3>Medicina Clínica</h3>
                 <!--<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p> -->
               </div>
             </div>
@@ -222,19 +187,19 @@
                 <i class="lni"><img src="./assets/img/icons/capsule.svg" /></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Psiquiatría</a></h3>
+                <h3>Psiquiatría</h3>
                 <!--<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p> -->
               </div>
             </div>
           </div>
           <!-- Services item -->
           <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
-            <div class="services-item wow fadeInDown" data-wow-delay="0.6s">
+            <div class="services-item wow fadeInDown hover2" data-wow-delay="0.6s">
               <div class="icon">
                 <i class="lni"><img src="./assets/img/icons/customer.svg" /></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Psicología</a></h3>
+                <h3>Psicología</h3>
                 <!--<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p> -->
               </div>
             </div>
@@ -246,19 +211,19 @@
                 <i class="lni"><img src="./assets/img/icons/weight.svg" /></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Nutrición</a></h3>
+                <h3>Nutrición</h3>
                 <!--<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p> -->
               </div>
             </div>
           </div>
            <!-- Services item -->
           <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
-            <div class="services-item wow fadeInDown" data-wow-delay="1s">
+            <div class="services-item wow fadeInDown hover2" data-wow-delay="1s">
               <div class="icon">
                 <i class="lni"><img src="./assets/img/icons/dumbbell.svg" /></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Kinesiología</a></h3>
+                <h3>Kinesiología</h3>
                 <!--<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p> -->
               </div>
             </div>
@@ -270,7 +235,7 @@
                 <i class="lni"><img src="./assets/img/icons/first-aid.svg" /></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Enfermería</a></h3>
+                <h3>Enfermería</h3>
                 <!--<p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p> -->
               </div>
             </div>
@@ -388,7 +353,7 @@
                 <div class="features-title-icon d-flex justify-content-between">
                     <h4 class="features-title">Estimulación<br>Cognitiva</h4>
                     <div class="icon-act">
-                      <img src="./assets/img/icons/invention.svg" /></i>
+                      <img src="./assets/img/icons/invention.svg" class="logo-actividades" /></i>
                     </div>
                 </div>
                 <div class="features-content">
@@ -555,6 +520,7 @@
     </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./assets/js/hamburger.js"></script>
     <script src="assets/js/jquery-min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
