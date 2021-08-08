@@ -1003,6 +1003,25 @@ h1 {
   border-bottom: none;
 }
 
+.padding-none2 {
+  padding: 0;
+  margin-top: 0;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.padding-none3 {
+  border-left: 0px solid black!important;
+}
+.padding-none4 {
+  padding: 0;
+  border-left: 1px solid #ddd;
+}
+
+.services-wrapper2 {
+  margin-top: 0px;
+  padding-top: 0;
+}
+
 .services-wrapper {
   margin-top: 30px;
 }
@@ -2099,7 +2118,6 @@ padding: 0;
 }
 
 .row {
-
   margin-bottom: 20px!important;
 }
 
@@ -2224,8 +2242,13 @@ margin-left: 0!important;
 .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
 }
+.padding-none3 .padding-none .padding-none2{
+  border-bottom: 1px solid #ddd!important;
 }
-
+.padding-none4 {
+  border-top: 1px solid #ddd!important;
+}
+}
 
 #redes { 
   display: flex;
@@ -2250,6 +2273,7 @@ footer {
   box-shadow:
   5px 10px 10px 27px rgba(0, 0, 0, 0.01);
 }
+
 footer p {
   font-weight: 100;
   font-size: 12px;
@@ -2258,7 +2282,6 @@ footer p {
   width: 150px;
   margin-bottom: 6px;
 }
-
 
 
 #redes-contacto {
