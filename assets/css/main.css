@@ -669,6 +669,11 @@ a.back-to-top:hover, a.back-to-top:focus {
     width: auto;
     object-fit: cover;
   }
+  #redes {
+    flex-direction: row!important;
+    gap: 12px!important;
+    padding-top: 4px;
+  }
 }
 
 h1 {
@@ -2146,12 +2151,12 @@ padding: 0;
 
 /**/
 #main-logo{
-width: 160px; /*antes 140*/
+width: 190px; /*antes 140*/
 margin-left: 0!important;
 }
 .navbar {
   display: flex;
-  flex-direction: column; /*Logo en el medio*/
+ /* flex-direction: column; /*Logo en el medio */
   align-items: center;
   background: #344859cc;
   padding: 1rem 1.5rem;
@@ -2161,9 +2166,19 @@ margin-left: 0!important;
   color: white;
 }
 
+.contact-button {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px!important;
+  font-weight: 100;
+  background-color: pink;
+}
+
 .navbar a {
   color: white;
-  font-weight: 100!important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .hamburger {
@@ -2252,9 +2267,10 @@ margin-left: 0!important;
 
 #redes { 
   display: flex;
+  flex-direction: column;
   padding-left: 12px;
   size: 50px;
-  gap: 6px;
+  gap: 2px;
 }
 
 #redes a:hover {
@@ -2326,4 +2342,10 @@ color: #DFEBF2;
 
 .text-uppercase {
   font-weight: 600;
+}
+
+
+
+.nav-social-logo {
+  width: 19px;
 }
