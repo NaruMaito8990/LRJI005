@@ -2347,3 +2347,8 @@ color: #DFEBF2;
 .nav-social-logo {
   width: 19px;
 }
+
+
+#boton-hero {
+  display: none;
+}
